@@ -1,0 +1,20 @@
+all: modulo1 modulo2 modulo3 modulo4 modulo5 
+
+modulo1:
+	gcc -Wall Modulo\ 1/*.c -o modulo1
+
+modulo2:
+	gcc -Wall Modulo\ 2/*.c -o modulo2
+
+modulo3:
+	gcc -Wall Modulo\ 3/*.c -o modulo3
+
+modulo4:
+	gcc -Wall Modulo\ 4/*.c -o modulo4
+
+modulo5:
+	gcc -Wall Modulo\ 5/*.c -o modulo5
+
+
+clean:
+	rm -f modulo1 modulo2 modulo3 modulo4 modulo5
